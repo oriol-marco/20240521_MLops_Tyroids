@@ -1,1 +1,22 @@
-key : val
+
+COLUMNS:
+  Age: int64 
+  Gender: object
+  Smoking: object
+  Hx Smoking: object
+  Hx Radiothreapy: object
+  Thyroid Function: object
+  Physical Examination: object
+  Adenopathy: object
+  Pathology: object
+  Focality: object
+  Risk: object
+  T: object
+  N: object
+  M: object
+  Stage: object
+  Response: object
+  Recurred: object
+
+TARGET_COLUMN:
+  name: Recurred
